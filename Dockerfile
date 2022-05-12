@@ -74,7 +74,7 @@ ADD example-conf /home/example-conf
 RUN cd /home/ && git config --global http.sslVerify false && git clone https://github.com/sony/nmos-js.git
 
 ## Custom branding
-COPY NVIDIA_Logo_H_ForScreen_ForLightBG.png nmos-js.patch /home/nmos-js/Development/src/assets/
+COPY cbc-radio-canada.png nmos-js.patch /home/nmos-js/Development/src/assets/
 RUN cd /home && \
     mv /home/nmos-js/Development/src/assets/nmos-js.patch /home && \
     patch -p0 <nmos-js.patch && \
