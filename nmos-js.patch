@@ -4,7 +4,7 @@ diff -ruN nmos-js/Development/public/manifest.json nmos-js.new/Development/publi
 @@ -1,7 +1,8 @@
  {
    "short_name": "nmos-js",
-+  "name": "NVIDIA NMOS Commissioning Controller",
++  "name": "CBC/Radio-canada NMOS registry",
    "start_url": "./index.html",
    "display": "standalone",
 -  "theme_color": "rgb(0,47,103)",
@@ -16,7 +16,7 @@ diff -ruN nmos-js/Development/src/components/AppLogo.js nmos-js.new/Development/
 +++ nmos-js.new/Development/src/components/AppLogo.js
 @@ -1,8 +1,9 @@
 -import AppLogoAsset from '../assets/sea-lion.png';
-+import AppLogoAsset from '../assets/NVIDIA_Logo_H_ForScreen_ForLightBG.png';
++import AppLogoAsset from '../assets/cbc-radio-canada.png';
  
  const AppLogoStyle = {
 +    backgroundColor: 'white',
@@ -33,16 +33,16 @@ diff -ruN nmos-js/Development/src/config.json nmos-js.new/Development/src/config
  {
      "title": "nmos-js",
 -    "about": "An NMOS Client",
-+    "about": "NVIDIA NMOS Commissioning Controller",
++    "about": "CBC/Radio-Canada NMOS registry",
      "palette": {
          "primary": {
 -            "main": "rgb(45,117,199)",
-+            "main": "#76b900",
++            "main": "#f00",
              "contrastText": "#fff"
          },
          "secondary": {
 -            "main": "rgb(0,47,103)",
-+            "main": "#76b900",
++            "main": "#f00",
              "contrastText": "#fff"
          }
      },
