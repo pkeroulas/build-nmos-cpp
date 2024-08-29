@@ -4,7 +4,7 @@ diff -ruN nmos-js/Development/public/manifest.json nmos-js.new/Development/publi
 @@ -1,7 +1,8 @@
  {
    "short_name": "nmos-js",
-+  "name": "CBC/Radio-canada NMOS registry",
++  "name": "CBC/Radio-Canada NMOS registry",
    "start_url": "./index.html",
    "display": "standalone",
 -  "theme_color": "rgb(0,47,103)",
